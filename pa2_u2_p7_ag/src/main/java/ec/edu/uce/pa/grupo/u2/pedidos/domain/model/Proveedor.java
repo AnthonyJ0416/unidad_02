@@ -24,5 +24,36 @@ public class Proveedor {
     private String telefono;
      @Column(name = "prove_ciudad")
     private String ciudad;
+     public Integer getId() {
+         return id;
+     }
+     public void setId(Integer id) {
+         this.id = id;
+     }
+     public String getNombreEmpresa() {
+         return nombreEmpresa;
+     }
+     public void setNombreEmpresa(String nombreEmpresa) {
+         this.nombreEmpresa = nombreEmpresa;
+     }
+     public String getContacto() {
+         return contacto;
+     }
+     public void setContacto(String contacto) {
+         this.contacto = contacto;
+     }
+     public String getTelefono() {
+         return telefono;
+     }
+     public void setTelefono(String telefono) {
+         this.telefono = telefono;
+     }
+     public String getCiudad() {
+         return ciudad;
+     }
+     public void setCiudad(String ciudad) {
+         this.ciudad = ciudad;
+     }
 
+    
 }
